@@ -1,0 +1,6 @@
+*.exe
+*.out
+*.log
+*.class
+.DS_Store
+__pycache__/
