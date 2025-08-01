@@ -141,7 +141,12 @@ git init
 git remote add origin https://github.com/<your-username>/DSA_Sheets.git
 ```
 
-optional ...                              
+and one should create - 
+create readme.md and .gitignore files in repo.
+Readme.md => Should have project details of repo
+.gitignore file => Contents of it mentioned below [files that user doesn't want to be uploaded on git from local laptop]
+
+optional ...              
 Then run:
 ```
 git pull origin main --allow-unrelated-histories
@@ -257,8 +262,10 @@ Create a .gitignore file using a text editor:
 On Windows: Right-click → New → Text Document → Rename to .gitignore
 
 Or use command line:
+```
 cd DSA_Sheets
 touch .gitignore      # Linux/Mac or Git Bash on Windows
+```
 
 Open .gitignore and paste:
 *.exe
