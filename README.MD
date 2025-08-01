@@ -20,18 +20,23 @@ This repo contains solutions to top coding interview problems organized by popul
 * HOW TO USE GITHUB ---
 
 …or create a new repository on the command line
+```
 echo "# DSA_SHEETS_QS_SOLUTION" >> README.md
+
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Alpha1zln/DSA_SHEETS_QS_SOLUTION.git
 git push -u origin main
+```
 
 …or push an existing repository from the command line
+```
 git remote add origin https://github.com/Alpha1zln/DSA_SHEETS_QS_SOLUTION.git
 git branch -M main
 git push -u origin main
+```
 
 *******************************************************************************************************
 HOW TO UPLOAD CODES FROM LAPTOP TO GITHUB ---
@@ -45,8 +50,9 @@ You want to weekly add 10 new solutions and push them to GitHub.
 
 ✅ 1. Initial Git Setup (Only once)
 If not already done:
-```
+
 cd path/to/DSA_Sheets   # Go inside your main folder
+```
 git init
 git remote add origin https://github.com/your-username/DSA_Sheets.git
 git branch -M main
@@ -264,9 +270,11 @@ __pycache__/
 Save and close.
 
 Then run in terminal:
+```
 git rm -r --cached .
 git add .
 git commit -m "Apply .gitignore rules"
+```
 
 Option 2: Directly on GitHub (if no local file yet)
 Go to your GitHub repo.
