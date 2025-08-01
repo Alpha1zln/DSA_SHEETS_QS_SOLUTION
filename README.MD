@@ -17,11 +17,11 @@ This repo contains solutions to top coding interview problems organized by popul
 
 
 *******************************************************************************************************
-* HOW TO USE GITHUB ---
+## HOW TO USE GITHUB ---
 
-…or create a new repository on the command line
+…or create a new repository on the command line  
 ```
-echo "# DSA_SHEETS_QS_SOLUTION" >> README.md
+echo "# DSA_SHEETS_QS_SOLUTION" >> README.md  
 
 git init
 git add README.md
@@ -31,7 +31,7 @@ git remote add origin https://github.com/Alpha1zln/DSA_SHEETS_QS_SOLUTION.git
 git push -u origin main
 ```
 
-…or push an existing repository from the command line
+…or push an existing repository from the command line  
 ```
 git remote add origin https://github.com/Alpha1zln/DSA_SHEETS_QS_SOLUTION.git
 git branch -M main
@@ -39,7 +39,7 @@ git push -u origin main
 ```
 
 *******************************************************************************************************
-HOW TO UPLOAD CODES FROM LAPTOP TO GITHUB ---
+## HOW TO UPLOAD CODES FROM LAPTOP TO GITHUB ---
 
 🗂️ Setup Summary:
 You have a main folder: DSA_Sheets (on both laptop & GitHub).
@@ -112,12 +112,12 @@ git checkout main
 git merge week_3
 git push origin main
 
-📌 Done!
+📌 Done!  
 Your weekly uploads are now fully Git-enabled — just remember to add, commit, and push every time you add new solutions.
 
 
 *******************************************************************************************************
-***** other ways --- using branch ---
+## ***** Other ways --- using branch ---
 
 Sure! Here's a clean and complete step-by-step guide based on your setup:
 
@@ -172,6 +172,16 @@ git checkout -b week1
 ➕ Step 5: Add and Commit Your Local Files
 ```
 git add .
+```
+
+or  
+You can also do:  
+```
+git add Arrays/q1.cpp    //   if you want to add specific files.
+```
+
+then
+```
 git commit -m "Week 1: Initial upload of DSA solutions"
 ```
 
@@ -251,7 +261,7 @@ Let me know if you want a clean cheat sheet for this full setup.
 
 ***********************************************************************************************
 ***********************
-.gitignore file ****
+## .gitignore file ****  
 Yes, you can and should manually create the .gitignore file in your repo folder — both locally and on GitHub if needed.
 
 ✅ How to create .gitignore manually:  
@@ -302,7 +312,7 @@ It ensures that unnecessary or junk files like .exe, .class, or Python cache fol
 
 ***********************************************************************************************
 
-In a README.md file (Markdown), you can create new lines in several clean ways:
+##  In a README.md file (Markdown), you can create new lines in several clean ways:
 
 ✅ Option 1: Use Two Spaces at the End of Line
 Add two spaces at the end of a line, then press Enter.  
