@@ -31,6 +31,9 @@ git checkout -b week2
 ```
 This makes a new branch starting from your current state.  
 
+$$ or ... leave this remove step ... as once code is push and it will see changes in code in folder having 10 files,  
+then it will upload new files and remove old ones from that folder, on own. Check ?. 
+or this step
 2️⃣ Delete the old folder from Git tracking  
 This removes the old files from the repo (in this branch only):  
 
