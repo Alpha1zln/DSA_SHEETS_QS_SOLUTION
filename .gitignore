@@ -1,6 +1,76 @@
-*.exe
-*.out
-*.log
-*.class
+# ==========================
+# OS SYSTEM FILES
+# ==========================
 .DS_Store
-__pycache__/
+Thumbs.db
+
+# ==========================
+# COMPILERS & BUILD FILES
+# ==========================
+*.out
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# IDE / EDITOR FILES
+# ==========================
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ / Eclipse / NetBeans
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+nbproject/
+
+# ==========================
+# BUILD & CACHE DIRECTORIES
+# ==========================
+build/
+target/
+out/
+dist/
+bin/
+debug/
+release/
+
+# ==========================
+# LOGS / TEMP FILES
+# ==========================
+*.log
+*.tmp
+*.swp
+*.bak
+*.cache
+*.rej
+*~
+*.suo
+*.user
+*.ncb
+*.opendb
+*.VC.db
+
+# ==========================
+# OTHER COMMON FILES
+# ==========================
+.env
+.env.local
+*.zip
+*.tar
+*.gz
+*.7z
